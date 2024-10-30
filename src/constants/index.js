@@ -1,15 +1,15 @@
-import pro1 from "../assets/projects/pro1.webp";
-import pro2 from "../assets/projects/pro2.webp";
+import pro1 from "../assets/projects/chat.webp";
+import pro2 from "../assets/projects/safe.webp";
 import pro3 from "../assets/projects/pro3.webp";
 import pro4 from "../assets/projects/pro4.webp";
 
-export const HERO_CONTENT = `I'm a passionate software engineer with a strong focus on developing innovative, user-friendly solutions that address real-world challenges. With experience in both web and app development, I specialize in frontend and backend technologies, utilizing languages like Python and Java.`;
+export const HERO_CONTENT = `I'm a passionate software engineer with expertise in Python and Java, dedicated to creating innovative, user-centric solutions that tackle real-world challenges. With experience in both web and app development, I specialize in front-end and back-end technologies. My hackathon experience has sharpened my problem-solving skills and creativity, fueling my drive to build impactful, cutting-edge technology. Currently, I'm expanding my knowledge in cloud computing and AI to stay ahead in the ever-evolving tech industry and deliver even more advanced solutions.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2024 Feb - Present",
+    year: "2024 Feb - Oct",
     role: "Junior Web Designer",
     company: "Codetrics",
     description: `Collaborating with the team to design and maintain user-friendly web interfaces. Assisting in the development of website layouts using HTML, CSS, and JavaScript. Supporting the creation of responsive designs that work across various devices.`,
@@ -31,25 +31,28 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "User Management System",
+    title: "Chatroom",
     image: pro1,
     description:
       "Full stack CRUD (Create, Read, Update, Delete) application using Java Spring Boot and React Hooks with functional components. It includes building REST API using Spring and MySQL on the backend, testing with PostMan, and handling REST API in React using Axios.",
-    technologies: ["Java", "Spring Boot", "MySQL", "React", "Axios"],
+    technologies: ["Java"],
+    github: "https://github.com/giftiem/Chatroom"
   },
   {
-    title: "E-Commerce Platform",
+    title: "Impempe Safety App",
     image: pro2,
     description:
-      "A fully functional e-commerce platform developed with Django for the backend and Flutter for the mobile frontend.",
-    technologies: ["Django", "Flutter", "PostgreSQL", "REST API"],
+      "The safety app offers real-time emergency alerts, location tracking, and a panic button to ensure quick assistance and enhanced personal security.",
+    technologies: ["Flutter", "MySQL", "Google Maps API"],
+    github: "https://github.com/CodeCrafterNoku/Impempe_Safety"
   },
   {
     title: "Onika - Personal Assistant",
     image: pro3,
     description:
       "A personalized desktop assistant built using Python and JavaScript. It features memory and voice command functionalities, floating widget integration, and file access through system tray interaction.",
-    technologies: ["Python", "JavaScript", "OpenAI API", "Electron"],
+    technologies: ["Python", "JavaScript", "OpenAI API"],
+    github: "https://github.com/giftiem/ONIKA--Personal-Desktop-Assistant"
   },
   {
     title: "Portfolio Website",
@@ -57,7 +60,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information using React and Tailwind CSS for design and responsiveness.",
     technologies: ["React", "Tailwind CSS", "JavaScript"],
-  },
+    github: "https://github.com/giftiem/Portfolio"
+  }
 ];
 
 export const education = {

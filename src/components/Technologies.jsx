@@ -125,14 +125,7 @@ const Technologies = () => {
           <SiDocker className="text-7xl text-blue-400" />
         </motion.div>
 
-        <motion.div
-          variants={iconVariants(2.8)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <FaAws className="text-7xl text-orange-500" />
-        </motion.div>
+       
       </motion.div>
     </div>
   );

@@ -44,12 +44,6 @@ const Projects = () => {
                           GitHub Repo
                         </a>
                       </button>
-                      <button 
-                        className="bg-gradient-to-r from-white via-gray-500 to-white text-gray-800 py-1.5 px-4 rounded-full border border-gray-500 hover:bg-gradient-to-r hover:from-white hover:via-gray-600 hover:to-white">
-                        <a href={project.liveDemo} target="_blank" rel="noopener noreferrer">
-                          Live Demo
-                        </a>
-                      </button>
                     </div>
                 </motion.div>    
             </div>
