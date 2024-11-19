@@ -1,4 +1,4 @@
-import logo from "../assets/giftlogo.png";
+import logo from "../assets/image.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa"; // Import LinkedIn and GitHub icons
 
 const Navbar = () => {
@@ -7,8 +7,8 @@ const Navbar = () => {
       {/* Logo Section - Keeping it as you originally had it */}
       <div className="flex flex-shrink-0 items-center">
         <img
-          className="mx-2 w-100" // Original size for the logo
-          style={{ marginTop: "-55px" }} // Original margin
+          className="mx-1 w-20" // Original size for the logo
+          style={{ marginTop: "-0px" }} // Original margin
           src={logo}
           alt="logo"
         />
